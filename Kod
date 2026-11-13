@@ -1,0 +1,8 @@
+uzunluk = float(input("Akvaryumun uzunluğunu cm cinsinden giriniz: "))
+genişlik = float(input("Akvaryumun genişliğini cm cinsinden giriniz: "))
+yükseklik = float(input("Akvaryum genişliğini cm cinsinden giriniz: "))
+
+hacim = uzunluk * genişlik * yükseklik
+print("Akvaryumunuzun hacmi ",hacim," litredir. ")
+değişim = (hacim * 0.25)
+print("Haftalık değiştirmeniz gereken miktar ",değişim,"litredir ")
